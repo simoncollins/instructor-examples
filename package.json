@@ -1,0 +1,21 @@
+{
+  "name": "instructor-examples",
+  "version": "1.0.0",
+  "description": "Examples for instructor-js",
+  "author": "Simon Collins",
+  "license": "MIT",
+  "scripts": {
+    "itinerary": "tsx examples/itinerary.ts"
+  },
+  "dependencies": {
+    "@instructor-ai/instructor": "^1.2.1",
+    "dotenv": "^16.4.5",
+    "openai": "^4.39.0",
+    "typescript": "^5.4.5",
+    "zod": "^3.23.5"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.3"
+  },
+  "type": "module"
+}
